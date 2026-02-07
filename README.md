@@ -1,151 +1,88 @@
-📈 Sales & Demand Forecasting for Businesses
+# 📈 Sales & Demand Forecasting for Businesses
 
-Future Interns – Machine Learning Internship
-CIN ID: FIT/JAN26/ML5215
-Internship Domain: Machine Learning (ML)
+## 📌 Project Overview
+This project focuses on building a **machine learning-based sales forecasting system** using historical business data. By leveraging regression techniques, the system predicts future sales trends to help organizations:
 
-📌 Project Overview
+- Optimize inventory  
+- Estimate revenue  
+- Make data-driven decisions  
 
-This project focuses on building a machine learning–based sales forecasting system using historical business sales data.
-The goal is to predict future sales trends and present insights in a business-friendly manner using visualizations and dashboards.
+**Internship:** Future Interns – Machine Learning  
+**CIN ID:** FIT/JAN26/ML5215  
+**Task:** Sales & Demand Forecasting (Task 1)  
 
-This task simulates a real-world business scenario where accurate demand forecasting helps organizations in:
+---
 
-Inventory planning
+## 🎯 Objectives
+- Analyze historical sales data to identify trends and seasonality  
+- Build a robust forecasting model using the **Random Forest Regressor**  
+- Evaluate performance by comparing actual vs. predicted values  
+- Visualize actionable insights through **Matplotlib** and an interactive **Power BI dashboard**  
 
-Revenue estimation
+---
 
-Decision-making
+## 🛠️ Tools & Technologies Used
+- **Language:** Python 3.x  
+- **Environment:** Jupyter Notebook  
+- **Data Science Stack:** Pandas, NumPy, Scikit-learn  
+- **Visualization:** Matplotlib, Power BI  
+- **Version Control:** Git & GitHub  
 
-🎯 Objectives
+---
 
-Analyze historical sales data
-
-Build a forecasting model using machine learning
-
-Compare actual vs predicted sales
-
-Forecast future sales values
-
-Visualize results using Matplotlib and Power BI
-
-🛠️ Tools & Technologies Used
-
-Programming Language: Python
-
-Environment: Jupyter Notebook
-
-Libraries: NumPy, Pandas, Matplotlib, Scikit-learn
-
-Visualization Tool: Power BI
-
-Version Control: Git & GitHub
-
-📂 Project Structure
+## 📂 Project Structure
 FUTURE_ML_01/
 │
 ├── data/
-│   └── Sample - Superstore.csv
+│ └── Sample - Superstore.csv # Raw Sales Dataset
 │
-├── notebooks/
-│   └── Task1.ipynb
+├── notebook/
+│ └── Task1.ipynb # Data Preprocessing & ML Modeling
 │
 ├── powerbi/
-│   └── Task1.pbix
+│ └── Task1.pbix # Interactive Sales Dashboard
 │
 ├── outputs/
-│   ├── actual_vs_predicted_sales.png
-│   ├── future_sales_forecast.png
-│   ├── future_sales_forecast.csv
-│   └── sales_forecast.csv
+│ ├── actual_vs_predicted_sales.png
+│ ├── future_sales_forecast.png
+│ ├── future_sales_forecast.csv
+│ └── sales_forecast.csv
 │
 ├── README.md
-└── requirements.txt
 
-🔄 Workflow
+---
 
-Data Cleaning & Preprocessing
+## 🔄 Workflow
+1. **Data Cleaning:** Handled missing values and formatted date columns  
+2. **Feature Engineering:** Extracted time-based features (Month, Year) and aggregated sales  
+3. **Exploratory Data Analysis (EDA):** Visualized monthly patterns to identify peak seasons  
+4. **Modeling:** Implemented a **Random Forest Regressor** to capture non-linear relationships in sales data  
+5. **Forecasting:** Projected sales for upcoming months based on learned patterns  
 
-Handled missing values
+---
 
-Converted date columns to datetime format
+## 📊 Key Visualizations
+1. **Actual vs Predicted Sales**  
+   Demonstrates how closely the model's predictions align with historical data  
 
-Created time-based features (month, year)
+2. **Future Sales Forecast**  
+   Displays projected sales trends for the next period  
 
-Exploratory Data Analysis
+3. **Power BI Dashboard**  
+   Interactive dashboard includes:  
+   - Category-wise performance  
+   - Regional sales distribution  
+   - Time-slicers for deep-dive analysis  
 
-Identified sales trends and seasonality
+---
 
-Visualized monthly sales patterns
+## 💡 Business Insights
+- **Seasonality:** Clear spikes observed in specific months (e.g., Year-end sales)  
+- **Accuracy:** Model captures the general trend effectively, providing a reliable baseline for revenue estimation  
+- **Recommendations:** Increase stock levels 1-2 months prior to identified peak periods to prevent stockouts  
 
-Model Building
+---
 
-Trained a regression-based forecasting model
-
-Used historical data for prediction
-
-Model Evaluation
-
-Compared Actual vs Predicted Sales
-
-Analyzed prediction errors
-
-Future Forecasting
-
-Generated sales predictions for upcoming months
-
-Visualization & Dashboard
-
-Line charts using Matplotlib
-
-Interactive Power BI dashboard for business users
-
-📊 Key Visualizations
-
-Actual vs Predicted Sales – Shows model performance compared to real sales.
-
-Future Sales Forecast – Displays predicted sales trends for upcoming months.
-
-Power BI Dashboard – Interactive dashboard to explore sales trends, compare predictions, and support decision-making.
-File: powerbi/Task1.pbix
-
-💡 Business Insights
-
-Model effectively captures overall sales trends
-
-Seasonal spikes are observed in specific months
-
-Forecasts can assist businesses in:
-
-Stock planning
-
-Marketing strategy
-
-Revenue forecasting
-
-🎓 Skills Gained
-
-Time-series data handling
-
-Regression-based forecasting
-
-Data visualization for business insights
-
-Model evaluation & interpretation
-
-End-to-end ML project documentation
-
-📌 Internship Details
-
-Program: Future Interns – Machine Learning
-
-Task: Sales & Demand Forecasting (Task 1)
-
-Track Code: ML
-
-Submission: Public GitHub Repository
-
-🔗 Author
-
-Karina Paudel
-Machine Learning Intern – Future Interns
+## 🔗 Author
+**Karina Paudel**  
+Machine Learning Intern – Future Interns 
